@@ -1,0 +1,202 @@
+
+.section{
+    width: 1616px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 150px;
+}
+
+.section_button{
+    padding: 18px 24px;
+    color: white;
+    font-family: "Urbanist", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 150%;
+    font-size: 18px;
+    height: 63px;
+    background-color: #141414;
+    border: 1px solid #262626 ;
+    border-radius: 10px;
+
+}
+.section_button:hover{
+    background-color: #1a1a1a;
+    cursor: pointer;
+}
+
+.section_card_description{
+    display: flex;
+    width: 1616px;
+    justify-content: space-between;
+    align-items: end;
+    margin: 110px 0 80px 0;
+}
+
+.card_img{
+    margin-bottom: 30px;
+}
+
+.card_name{
+    margin: 0 0 6px;
+    color: white;
+    font-family: "Urbanist", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 150%;
+    font-size: 24px;
+}
+
+.card_description{
+    margin: 0 0 30px;
+    color: #999999;
+    font-family: "Urbanist", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 150%;
+    font-size: 18px;
+    height: 54px;
+    width: 432px;
+    overflow: hidden;
+}
+
+
+
+.CharacteristicsOfTheHouse{
+    display: flex;
+    gap: 10px;
+    margin: 0 0 30px;
+}
+
+.Characteristics{
+    display: flex;
+    border-radius: 28px;
+    border: 1px solid #262626 ;
+    align-items: center;
+    gap: 4px;
+    padding: 9.5px 14px;
+    background-color: #1A1A1A;
+}
+
+.Characteristics_text{
+    color: white;
+    font-family: "Urbanist", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 150%;
+    font-size: 18px;
+    margin: 0;
+}
+
+.price_wrapper{
+    display: flex;
+    gap: 50px;
+}
+
+.price{
+    color: #999999;
+    font-family: "Urbanist", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 150%;
+    font-size: 18px;
+    margin: 0;
+}
+
+.price_money{
+    color: white;
+    font-family: "Urbanist", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 150%;
+    font-size: 24px;
+}
+
+.house_button{
+    padding: 18px 54.5px;
+    background-color: #703BF7;
+    color: white;
+    font-family: "Urbanist", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 150%;
+    font-size: 18px;
+    border-radius: 18px;
+    border: none;
+}
+
+.house_button:hover{
+    cursor: pointer;
+    background-color: #8254F8;
+}
+
+.readMore{
+    color: white;
+    font-family: "Urbanist", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 150%;
+    font-size: 18px;
+}
+
+.readMore{
+    cursor: pointer;
+}
+
+.arrow_left{
+    transform: scale(-1,1);
+    fill: white;
+}
+
+.arrow_right{
+    fill: white;
+}
+
+.scrollButton{
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #262626 ;
+    width: 1596px;
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+}
+
+.arrowButton{
+    width: 58px;
+    height: 58px;
+    border-radius: 69px;
+    border: 1px solid #262626 ;
+    cursor: pointer;
+    background-color: #1A1A1A;
+}
+
+.house_carousel{
+    margin-left: 20px;
+    width: 1596px;
+    height: 726px;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.house_card{
+    padding: 39px;
+    height: auto;
+    border: 1px solid #262626 ;
+    border-radius: 12px;
+}
+
+.house_wrapper{
+    display: flex;
+    gap: 30px;
+    height: auto;
+    position: absolute;
+    transition: transform 0.5s ease;
+}
+
+
+
+
+

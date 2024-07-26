@@ -1,0 +1,12 @@
+.button{
+background-color: #703BF7;
+    border: none;
+    border-radius: 12px;
+    font-family: "Urbanist", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: white;
+    padding: 18px 46px;
+}

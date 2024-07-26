@@ -1,0 +1,32 @@
+
+
+.section_headerWrapper{
+    align-items: end;
+    justify-content: space-between;
+    margin: 0 0 0 20px;
+}
+
+.section_title{
+    color: white;
+    font-family: "Urbanist", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 150%;
+    font-size: 48px;
+    margin: 0;
+}
+
+.section_description{
+    color: #999999;
+    font-family: "Urbanist", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 150%;
+    font-size: 18px;
+    margin: 0;
+
+}
+
+
+
+

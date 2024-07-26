@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+}
+
+li{
+    box-sizing: border-box;
+}
+
+.body{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #141414;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+* {
+    box-sizing: border-box;
+}
+

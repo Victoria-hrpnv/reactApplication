@@ -1,0 +1,71 @@
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.header{
+    background-color: #1A1A1A;
+    height: 99px;
+    display: flex;
+    border: 1px #262626 solid;
+}
+
+.header_wrapper{
+    height: 100%;
+    width: 1920px;
+    margin: 0 auto;
+    padding: 0 162px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerLogo{
+    margin: auto 0;
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+}
+
+
+.navigation_list{
+    display: flex;
+    gap: 30px;
+    margin: auto;
+    padding: 0;
+}
+
+.navigation_item{
+    color: white;
+    font-family: "Urbanist", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 150%;
+    font-size: 18px;
+    padding: 14px 24px;
+    border: 1px rgba(0,0,0,0) solid;
+}
+
+.navigation_item:hover{
+    cursor: pointer;
+    border: 1px #262626 solid;
+    border-radius: 10px;
+}
+
+.active{
+    background-color: #202020;
+    border: 1px #262626 solid;
+    border-radius: 10px;
+}
+
+.navigation_sigInButton{
+    background-color: #141414;
+    height: 59px;
+    margin: auto 0;
+    border: 1px #262626 solid;
+    border-radius: 10px;
+}
