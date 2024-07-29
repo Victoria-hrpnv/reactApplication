@@ -15,6 +15,8 @@
     width: 1597px;
     border: 1px solid #262626;
     border-radius: 12px;
+    display: flex;
+    flex-direction: column;
 }
 
 .form_userData{

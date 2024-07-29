@@ -29,7 +29,6 @@ export default function PropertiesForm() {
         numberCheck: true,
         emailCheck: false,
     })
-
     const toggleCheckBox = () => {
         setCheck(prev => ({
             ...prev,
@@ -37,12 +36,6 @@ export default function PropertiesForm() {
             emailCheck: !prev.emailCheck
         }));
     };
-
-     useEffect(() => {
-        console.log(check);
-    }, [check]);
-
-
 
     const createFormField = (name, formLabel, type, placeholder, pattern) => (
         <FormField
@@ -121,7 +114,7 @@ export default function PropertiesForm() {
                         />
 
                     </div>
-                    <Button type={"submit"}>Send Your Message</Button>
+                    <Button className = {'button form_button'} type={"submit"}>Send Your Message</Button>
                 </form>
             </div>
         </section>)
