@@ -1,3 +1,13 @@
+.email_error-form{
+    color: tomato;
+    font-family: "Urbanist", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    letter-spacing: -0.02rem;
+   margin: 0;
+}
+
 .properties_form{
     display: flex;
     justify-content: center;
@@ -45,6 +55,7 @@
     font-size: 20px;
     line-height: 150%;
     color: white;
+    display: flex;
 }
 
 .form_input{

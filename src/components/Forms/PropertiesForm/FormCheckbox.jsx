@@ -5,20 +5,20 @@ export default function FormCheckbox ({register,type, placeholder, name,formLabe
 
     return(
         <div className = {check === true ? 'form_field_wrapper checkbox-true' : 'form_field_wrapper checkbox-false' }>
-            <label className={'form_label'} htmlFor={name}>{formLabel} </label>
+            <label className={'form_label'} htmlFor={name}>{formLabel} {errors && <p className={'email_error-form'}>{errors.message}</p> } </label>
             <input className={'form_input form_input_simple'}
                    {...register(name, {
-                       required: check ? 'This field is required' : false,
+                       required: check ? '\u00A0\u00A0*' : false,
                        pattern: {
                            value: pattern,
-                           message: 'Information entered incorrectly'
+                           message: ' incorrect information'
                        }
                    })}
                 type={type}
                 placeholder={placeholder}
                    onFocus={onFocus}
             />
-            {errors && <p className={'email_error'}>{errors.message}</p> }
+            {/*{errors && <p className={'email_error'}>{errors.message}</p> }*/}
         </div>
     )
 }

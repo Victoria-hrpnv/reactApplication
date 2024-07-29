@@ -59,10 +59,10 @@ export default function PropertiesForm() {
 
                 <form onSubmit={handleSubmit(onSubmit)} className={'form'}>
                     <div className={'form_userData'}>
-                        {createFormField('FirstName', 'First Name', 'text', 'Enter First Name', /^[A-Za-zА-Яа-яЁё]+$/)}
-                        {createFormField('LastName', 'Last Name', 'text', 'Enter Last Name', /^[A-Za-zА-Яа-яЁё]+$/)}
-                        {createFormField('Email', 'Email', 'email', 'Enter your Email', /^[A-Z0-9._%+-]+@[A-Z0-9-]+.+.[A-Z]{2,4}$/i)}
-                        {createFormField('Phone', 'Phone', 'phone', 'Enter Phone Number', /^\+?[1-9]\d{10}$/)}
+                        {createFormField('FirstName', 'First Name\u00A0\u00A0', 'text', 'Enter First Name', /^[A-Za-zА-Яа-яЁё]+$/)}
+                        {createFormField('LastName', 'Last Name\u00A0\u00A0', 'text', 'Enter Last Name', /^[A-Za-zА-Яа-яЁё]+$/)}
+                        {createFormField('Email', 'Email\u00A0\u00A0', 'email', 'Enter your Email', /^[A-Z0-9._%+-]+@[A-Z0-9-]+.+.[A-Z]{2,4}$/i)}
+                        {createFormField('Phone', 'Phone\u00A0\u00A0', 'phone', 'Enter Phone Number', /^\+?[1-9]\d{10}$/)}
 
                         <FormSelect name={'Location'}
                                     formLabel={'Preferred Location'}
