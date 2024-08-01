@@ -5,6 +5,7 @@ import Layout from "./components/Layout/Layout.jsx";
 import Home from "./pages/Home/FeaturedProperties/Home.jsx";
 import './index.css'
 import Properties from "./pages/Properties/Properties.jsx";
+import PropertyDetails from "./components/PropertyDetails/PropertyDetails.jsx";
 
 const router = createBrowserRouter([
     {
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
             {
                 path: '/properties',
                 element: <Properties />,
+            },
+            {
+                path: '/properties/:propertyDetails',
+                element: <PropertyDetails />,
             },
         ],
         errorElement: <h1>404 Not Found</h1>,

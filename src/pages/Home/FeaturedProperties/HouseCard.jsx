@@ -1,7 +1,8 @@
 import './Home.css'
 import HouseDescription from "./HouseDescriotion.jsx";
+import {Link} from "react-router-dom";
 
-export default function HouseCard({src, name, description, bedroom, bathroom, type, prise}){
+export default function HouseCard({src, name, description, bedroom, bathroom, type, prise, id}){
 
 
     return(
@@ -29,7 +30,8 @@ export default function HouseCard({src, name, description, bedroom, bathroom, ty
 
             <div className={"price_wrapper"}>
             <p className={"price"}>Prise <br /> <span className={"price_money"}>{prise}</span> </p>
-                <button type={"button"} className={"house_button"}>View Property Details</button>
+                {/*<button type={"button"} className={"house_button"}>View Property Details</button>*/}
+                <Link to = {`/properties/${id}`} className={"house_button"}>View Property Details</Link>
             </div>
         </div>
     )

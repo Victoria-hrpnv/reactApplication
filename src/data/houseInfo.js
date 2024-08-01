@@ -7,7 +7,7 @@ const houseInfo = [
         bedroom: '4',
         bathroom: '3',
         type: 'Villa',
-        prise: '$550 000'
+        prise: '$850 000'
     },
     {
         id: 2,
@@ -17,7 +17,7 @@ const houseInfo = [
         bedroom: '3',
         bathroom: '2',
         type: 'Villa',
-        prise: '$550 000'
+        prise: '$950 000'
     },
     {
         id: 3,
@@ -27,7 +27,7 @@ const houseInfo = [
         bedroom: '5',
         bathroom: '2',
         type: 'Villa',
-        prise: '$550 000'
+        prise: '$350 000'
     },
     {
         id: 4,
@@ -37,7 +37,7 @@ const houseInfo = [
         bedroom: '4',
         bathroom: '3',
         type: 'Villa',
-        prise: '$550 000'
+        prise: '$690 000'
     },
     {
         id: 5,
@@ -47,7 +47,7 @@ const houseInfo = [
         bedroom: '5',
         bathroom: '2',
         type: 'Villa',
-        prise: '$550 000'
+        prise: '$750 000'
     },
     {
         id: 6,
