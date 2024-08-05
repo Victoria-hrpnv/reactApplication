@@ -9,13 +9,10 @@ export default function PropertyDetails () {
     const params = useParams();
     console.log(params)
     return (
-       // <>
-       // <PropertyInfo {houseInfo.map(property => {
-       //     property.id === params && return ...property
-       //
-       // })
-       // }
-       //
-       // </>
+       <> 1
+       {/*// <PropertyInfo {houseInfo.map(property => {*/}
+       {/* property.id === params && return property*/}
+           
+       </>
     )
 }
