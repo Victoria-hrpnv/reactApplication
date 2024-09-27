@@ -38,13 +38,18 @@
 }
 
 .card_name{
-    margin: 0 0 6px;
+    margin: 0;
     color: white;
     font-family: "Urbanist", sans-serif;
     font-weight: 500;
     font-style: normal;
     line-height: 150%;
     font-size: 24px;
+    width: max-content;
+}
+
+.card_name__wrapper{
+    margin: 0 0 6px;
 }
 
 .card_description{
@@ -198,6 +203,25 @@
 }
 
 
+/*-----------------------------------*/
 
 
 
+.card_name__wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.favoritesButton{
+    background-color: transparent;
+    border: none;
+    fill: white;
+    padding: 0;
+}
+
+.myIcon{
+ height: 25px;
+    width: 25px;
+    fill: rgb(130, 84, 248);
+    cursor: pointer;
+}

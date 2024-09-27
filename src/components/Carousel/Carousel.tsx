@@ -1,5 +1,5 @@
 import '../../pages/Home/Home.css'
-import HouseCard from "../../pages/Home/FeaturedProperties/HouseCard.tsx";
+import HouseCard from "../../pages/Home/FeaturedProperties/HouseCard.jsx";
 import houseInfo from "../../data/houseInfo.ts";
 import ScrollButton from "../../pages/Home/FeaturedProperties/ScrollButton.tsx";
 import {useRef, useState} from "react";
@@ -36,6 +36,7 @@ export default function Carousel() {
 
     return (
         <>
+
             <div className={'house_carousel'}>
                 <div ref={houseCardRef} className={'house_wrapper'}>
                     {houseInfo.map((house) => (

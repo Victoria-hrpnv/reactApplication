@@ -1,28 +1,38 @@
 import '../Home.css'
 import HouseDescription from "./HouseDescriotion.tsx";
 import {Link} from "react-router-dom";
-import internal from "node:stream";
-import * as string_decoder from "string_decoder";
-
-interface Props {
-    src:string
-    name:string
-    description:string
-    bedroom:string
-    bathroom:string
-    type:string
-    prise:string
-    id:number
-}
+import {useDispatch, useSelector} from "react-redux";
+import {actions} from "../../../store/favorites/favorites.slice.js";
+import { FaRegHeart } from "react-icons/fa6";
+import { FaHeart } from "react-icons/fa";
 
 
-export default function HouseCard({src, name, description, bedroom, bathroom, type, prise, id} :Props){
+// interface Props {
+//     src:string
+//     name:string
+//     description:string
+//     bedroom:string
+//     bathroom:string
+//     type:string
+//     prise:string
+//     id:number
+// }
 
+export default function HouseCard({src, name, description, bedroom, bathroom, type, prise, id}){
+    const favorites = useSelector(state => state.favorites);
+    const dispatch = useDispatch();
+    const isExist = favorites.some(h => h.id === id)
+    console.log(favorites)
 
     return(
         <div className={"house_card"}>
             <img className={"card_img"} src={src} alt="Фото недвижимости" width={432} height={318}/>
-            <h3 className={'card_name'}>{name}</h3>
+            <div className={'card_name__wrapper'}>
+                <h3 className={'card_name'}>{name}</h3>
+                <button className={'favoritesButton'}
+                        onClick={()=>dispatch(actions.toggleFavorites({id,name}))}> {isExist? <FaHeart className="myIcon" />: <FaRegHeart className="myIcon"/>} </button>
+            </div>
+
             <HouseDescription description={description}/>
 
             <div className={'CharacteristicsOfTheHouse'}>
