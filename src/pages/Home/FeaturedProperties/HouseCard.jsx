@@ -22,7 +22,6 @@ export default function HouseCard({src, name, description, bedroom, bathroom, ty
     const favorites = useSelector(state => state.favorites);
     const dispatch = useDispatch();
     const isExist = favorites.some(h => h.id === id)
-    console.log(favorites)
 
     return(
         <div className={"house_card"}>
