@@ -36,7 +36,7 @@ export default function EmailFormFooter() {
             {emailError && <p className={'email_error'}>{emailError}</p>}
 
             <button type={'submit'} className="email_send">
-                <img src="/public/SendEmail.png" alt="Отправить email"
+                <img src="/SendEmail.png" alt="Отправить email"
                      width={25} height={25}/>
             </button>
         </form>

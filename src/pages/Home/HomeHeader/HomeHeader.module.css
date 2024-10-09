@@ -45,7 +45,7 @@
     position: relative;
 }
 
-.dreamRealEstate_image:before {
+.dreamRealEstate_image:after {
     content: "";
     background-image: url("public/AbstractDesignHome.svg");
     background-repeat: no-repeat;

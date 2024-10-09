@@ -23,7 +23,7 @@ export default function Footer() {
 
             <section className={'footer_nav'}>
                 <div className="nav_logo">
-                    <img src="../../../public/Logo.png" width={'160'} height={'48'} alt=""/>
+                    <img src="/Logo.png" width={'160'} height={'48'} alt=""/>
                     <EmailFormFooter />
                 </div>
 
@@ -72,10 +72,10 @@ export default function Footer() {
                         <Link className={"info_rights"} to={'/'}>Terms & Conditions</Link>
                     </div>
                     <div className="socialMedia">
-                        <SocialMediaItem to={'/'} src={'../../../public/facebook.png'}/>
-                        <SocialMediaItem to={'/'} src={'../../../public/in.png'}/>
-                        <SocialMediaItem to={'/'} src={'../../../public/twitter.png'}/>
-                        <SocialMediaItem to={'/'} src={'../../../public/youtube.png'}/>
+                        <SocialMediaItem to={'/'} src={'/facebook.png'}/>
+                        <SocialMediaItem to={'/'} src={'/in.png'}/>
+                        <SocialMediaItem to={'/'} src={'/twitter.png'}/>
+                        <SocialMediaItem to={'/'} src={'/youtube.png'}/>
                     </div>
                  </div>
             </section>

@@ -19,7 +19,7 @@ interface HeaderProps{
 
     return (
         <div style={style}>
-            <img className='abstractImg' src="../../../public/AbstractDesign.png" alt="Картинка звездочки"/>
+            <img className='abstractImg' src="/AbstractDesign.png" alt="Картинка звездочки"/>
             <div className={'section_headerWrapper'}>
                     <h2 className='section_title'>{title}</h2>
                     <p className='section_description'>{description}</p>

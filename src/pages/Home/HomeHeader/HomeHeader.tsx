@@ -1,7 +1,7 @@
 import styles from './HomeHeader.module.css'
 import Advantages from "../../AboutUs/Advantages.tsx";
 import '../../AboutUs/AboutUs.css'
-import ImageHome from 'public/ImageHome.png'
+import ImageHome from '/ImageHome.png'
 
 
 export default function HomeHeader() {
