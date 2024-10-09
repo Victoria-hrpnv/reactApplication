@@ -6,8 +6,9 @@ import Home from "./pages/Home/Home.tsx";
 import './index.css'
 import Properties from "./pages/Properties/Properties.tsx";
 import PropertyDetails from "./components/PropertyDetails/PropertyDetails.tsx";
+import {createHashRouter} from "react-router-dom";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
     {
         path: '/',
         element: <Layout />,
