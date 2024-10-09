@@ -47,7 +47,7 @@
 
 .dreamRealEstate_image:before {
     content: "";
-    background-image: url("../../../../public/AbstractDesignHome.svg");
+    background-image: url("public/AbstractDesignHome.svg");
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
@@ -62,7 +62,7 @@
 
 .dreamRealEstate:before {
     content: "";
-    background-image: url("../../../../public/headerSticker.png");
+    background-image: url("public/headerSticker.png");
     background-repeat: no-repeat;
     background-position: center;
     display: block;
