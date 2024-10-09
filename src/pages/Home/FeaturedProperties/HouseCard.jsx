@@ -36,17 +36,17 @@ export default function HouseCard({src, name, description, bedroom, bathroom, ty
 
             <div className={'CharacteristicsOfTheHouse'}>
                 <div className={'Characteristics bedroomCount'}>
-                    <img src="/public/bedroom.png" alt="Иконка кровати" width={24} height={24}/>
+                    <img src="/bedroom.png" alt="Иконка кровати" width={24} height={24}/>
                     <p className={'Characteristics_text'}>{bedroom}-Bedroom</p>
                 </div>
 
                 <div className={'bathroomCount Characteristics'}>
-                    <img src="/public/bathroom.png" alt="Иконка душа" width={24} height={24}/>
+                    <img src="/bathroom.png" alt="Иконка душа" width={24} height={24}/>
                     <p className={'Characteristics_text'}>{bathroom}-Bathroom</p>
                 </div>
 
                 <div className={'typeHouse Characteristics'}>
-                    <img src="public/villa.png" alt="Иконка дома" width={24} height={24}/>
+                    <img src="/villa.png" alt="Иконка дома" width={24} height={24}/>
                     <p className={'Characteristics_text'}>{type}</p>
                 </div>
             </div>
