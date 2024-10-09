@@ -12,7 +12,7 @@ export default function Header(){
                         <NavItem to={'/'}>Home</NavItem>
                         <NavItem to={'aboutUs'}>About Us</NavItem>
                         <NavItem to={'properties'}>Properties</NavItem>
-                        <NavItem to={'services'}>Services</NavItem>
+                        {/*<NavItem to={'services'}>Services</NavItem>*/}
                     </ul>
                 </nav>
                 <SignIN>Contact Us</SignIN>
