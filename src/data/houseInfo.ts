@@ -14,7 +14,7 @@ interface HouseInfo {
 const houseInfo : HouseInfo[] = [
     {
         id: 1,
-        src: '/house1.png',
+        src: 'reactApplication/house1.png',
         name: 'Seaside Serenity Villa',
         description: 'A stunning 4-bedroom, 3-bathroom villa in a peaceful suburban neighborhood. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, minus.',
         bedroom: '4',
@@ -25,7 +25,7 @@ const houseInfo : HouseInfo[] = [
     },
     {
         id: 2,
-        src: '/house2.png',
+        src: 'house2.png',
         name: 'Metropolitan Haven',
         description: 'A chic and fully-furnished 2-bedroom apartment with panoramic city views. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, minus.',
         bedroom: '3',
@@ -36,7 +36,7 @@ const houseInfo : HouseInfo[] = [
     },
     {
         id: 3,
-        src: '/house3.png',
+        src: 'house3.png',
         name: 'Rustic Retreat Cottage',
         description: 'An elegant 3-bedroom, 2.5-bathroom townhouse in a gated community. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, minus.',
         bedroom: '5',
@@ -47,7 +47,7 @@ const houseInfo : HouseInfo[] = [
     },
     {
         id: 4,
-        src: '/house1.png',
+        src: 'reactApplication/house1.png',
         name: 'Seaside Serenity Villa',
         description: 'A stunning 4-bedroom, 3-bathroom villa in a peaceful suburban neighborhood. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, minus.',
         bedroom: '4',
@@ -58,7 +58,7 @@ const houseInfo : HouseInfo[] = [
     },
     {
         id: 5,
-        src: '/house3.png',
+        src: 'reactApplication/house3.png',
         name: 'Rustic Retreat Cottage',
         description: 'An elegant 3-bedroom, 2.5-bathroom townhouse in a gated community. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, minus.',
         bedroom: '5',
@@ -69,7 +69,7 @@ const houseInfo : HouseInfo[] = [
     },
     {
         id: 6,
-        src: '/house1.png',
+        src: 'reactApplication/house1.png',
         name: 'Seaside Serenity Villa',
         description: 'A stunning 4-bedroom, 3-bathroom villa in a peaceful suburban neighborhood. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, minus.',
         bedroom: '4',
